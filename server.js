@@ -3,8 +3,8 @@ const bodyParser = require("body-parser");
 const axios = require("axios");
 const app = express();
 
-const API_KEY = "tpsg-7JxYIqr3tGlpZ0R1RLPlZ9chi0rS1L5";
-const API_BASE = "https://api.metisai.ir/openai/v1";
+const API_KEY = "YOUR_API_KEY"
+const API_BASE = "YOUR_API_URL";
 
 app.use(bodyParser.json());
 app.use(express.static("public"));
